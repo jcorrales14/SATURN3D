@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<miweb>
+   <inicio>
+      <loc>https://jcorrales14.github.io/SATURN3D/index.html</loc>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </inicio>
+
+   <servicios>
+      <loc>https://jcorrales14.github.io/SATURN3D/servicios.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.9</priority>
+   </servicios>
+
+   <diseno>
+      <loc>https://jcorrales14.github.io/SATURN3D/diseno.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.8</priority>
+   </diseno>
+
+   <productos>
+      <loc>https://jcorrales14.github.io/SATURN3D/materiales.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </productos>
+
+   <presupuesto>
+      <loc>https://jcorrales14.github.io/SATURN3D/presupuesto.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.8</priority>
+   </presupuesto>
+
+   <equipo>
+      <loc>https://jcorrales14.github.io/SATURN3D/equipo.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.6</priority>
+   </equipo>
+
+   <galeria>
+      <loc>https://jcorrales14.github.io/SATURN3D/galeria.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.6</priority>
+   </galeria>
+
+   <faq>
+      <loc>https://jcorrales14.github.io/SATURN3D/faq.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.5</priority>
+   </faq>
+
+   <contacto>
+      <loc>https://jcorrales14.github.io/SATURN3D/contacto.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+   </contacto>
+
+   <aviso_legal>
+      <loc>https://jcorrales14.github.io/SATURN3D/aviso-legal.html</loc>
+      <lastmod>2026-02-24</lastmod>
+      <priority>0.2</priority>
+   </aviso_legal>
+</miweb>

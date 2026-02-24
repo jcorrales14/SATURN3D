@@ -1,0 +1,119 @@
+
+.contenedor-formulario {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #eee;
+}
+
+.grupo-formulario {
+    margin-bottom: 25px;
+}
+
+.grupo-formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #1a1a1d; 
+    font-size: 0.95rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+}
+
+
+input:focus, 
+select:focus, 
+textarea:focus {
+    outline: none;
+    border-color: #FF5722;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.1);
+}
+
+.grupo-radio, 
+.grupo-casillas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px dashed #ddd;
+}
+
+.grupo-radio label, 
+.grupo-casillas label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.contenedor-botones {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.boton-enviar {
+    background-color: #FF5722;
+    color: #ffffff;
+    flex: 2; 
+}
+
+.boton-borrar {
+    background-color: #666;
+    color: #ffffff;
+    flex: 1;
+}
+
+button:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor-formulario {
+        padding: 20px;
+    }
+    
+    .contenedor-botones {
+        flex-direction: column; 
+    }
+    
+    .boton-enviar, .boton-borrar {
+        width: 100%;
+    }
+}

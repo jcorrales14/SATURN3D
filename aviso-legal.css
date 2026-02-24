@@ -1,0 +1,45 @@
+
+main {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+
+*/
+.bloque-legal {
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+}
+
+
+.bloque-legal h3 {
+    color: #1a1a1d;
+    border-left: 4px solid #FF5722;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+
+.bloque-legal p {
+    color: #444;
+    line-height: 1.8;
+    text-align: justify; 
+    font-size: 0.95rem;
+}
+
+
+.bloque-legal strong {
+    color: #1a1a1d;
+}
+
+
+@media screen and (max-width: 600px) {
+    .bloque-legal p {
+        text-align: left; 
+    }
+    
+    .bloque-legal h3 {
+        font-size: 1.1rem;
+    }
+}
