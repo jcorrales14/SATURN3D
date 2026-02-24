@@ -31,6 +31,11 @@ nav {
     margin: 0 auto;
     padding: 0 20px;
     height: 70px;
+    position: relative;
+}
+
+.menu-check, .menu-icono {
+    display: none;
 }
 
 .logo {
@@ -123,7 +128,6 @@ h1, h2 {
     padding-bottom: 5px;
 }
 
-
 .contenedor-redes {
     display: flex;
     gap: 15px;
@@ -174,28 +178,61 @@ footer p {
     margin-top: 15px;
 }
 
-
 @media screen and (max-width: 1300px) {
     main, nav { padding-left: 20px; padding-right: 20px; }
 }
 
 @media screen and (max-width: 600px) {
-    nav { flex-direction: column; height: auto; padding: 15px; }
-    
-    nav ul {
-        flex-direction: column; width: 100%; display: none; 
-        margin-top: 15px; border-top: 1px solid #444;
+    .menu-icono {
+        display: block;
+        font-size: 2rem;
+        color: #FF5722;
+        cursor: pointer;
+    }
+
+    nav { 
+        flex-direction: row; 
+        justify-content: space-between;
+        height: 70px; 
     }
     
-    nav:hover ul { display: flex; }
+    nav ul {
+        display: none; 
+        flex-direction: column; 
+        width: 100%; 
+        background-color: #1a1a1d;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1000;
+        border-top: 1px solid #444;
+    }
     
-    nav ul li { width: 100%; text-align: center; }
+    .menu-check:checked ~ ul {
+        display: flex;
+    }
+    
+    nav ul li { 
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #333;
+    }
     
     .contenido-desplegable { 
         position: relative; 
         box-shadow: none; 
-        border: 1px solid #eee; 
+        border: none; 
         width: 100%;
+        background-color: #2a2a2d;
+    }
+
+    .desplegable:active .contenido-desplegable,
+    .desplegable:hover .contenido-desplegable {
+        display: block;
+    }
+
+    .contenido-desplegable a {
+        color: #eee;
     }
 
     section { padding: 20px; }
