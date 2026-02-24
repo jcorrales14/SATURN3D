@@ -34,7 +34,11 @@ nav {
     position: relative;
 }
 
-.menu-check, .menu-icono {
+.menu-check {
+    display: none !important;
+}
+
+.menu-icono {
     display: none;
 }
 
